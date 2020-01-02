@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+
+.btn-sm-cst{
+    height: 35px;
+}
+
+.ag-theme-balham .ag-row {
+    height: 40px !important;
+}

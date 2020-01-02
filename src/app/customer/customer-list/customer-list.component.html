@@ -1,0 +1,5 @@
+<h3>Customer List:</h3>
+<ag-grid-angular style="width: 100%; height: 500px;" (gridReady)="onGridReady($event)"
+ class="ag-theme-balham" [rowData]="this.customerList" (cellClicked)="onCellClicked($event)" [pagination]="true"
+ [columnDefs]="columnDefs">
+</ag-grid-angular>
